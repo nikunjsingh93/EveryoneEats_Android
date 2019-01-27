@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TableRow android:gravity="center"
+        android:background="#434445">
+
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Chef Orders"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#f5f2f2"
+            android:textSize="75px" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/labelTopOrder"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+  />
+
+
+
+
+    <TableRow android:gravity="left">
+
+        <TextView
+            android:id="@+id/labelOrderID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID :"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        <TextView
+            android:id="@+id/labelSetOrderID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </TableRow>
+
+
+    <!--<TableRow android:gravity="left">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/labelOrderItems"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Order Items :"-->
+            <!--android:textSize="50px"-->
+            <!--android:textColor="#0b0b0b"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/orderQuantity"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="50px"-->
+            <!--android:textColor="#0b0b0b"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2" />-->
+    <!--</TableRow>-->
+
+    <TableRow android:gravity="center"
+        android:background="@drawable/txtview_bg">
+
+        <TextView
+            android:id="@+id/lblCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food List"
+            android:gravity="center"
+            android:textSize="50px"
+            android:textColor="#fcfbfb"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/labelSetOrderItemList"
+        android:layout_width="359dp"
+        android:layout_height="153dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="false"
+        android:gravity="left"
+        android:lines="4"
+        android:maxLines="4"
+        android:textSize="18sp"
+      >
+        <TextView
+            android:id="@+id/labelSetOrderItem"
+            android:layout_width="match_parent"
+            android:textSize="50px"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+    <TableRow android:gravity="center"
+        android:background="@drawable/txtview_bg">
+
+        <TextView
+            android:id="@+id/sdfsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Availability"
+            android:gravity="center"
+            android:textSize="50px"
+            android:textColor="#fcfbfb"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </TableRow>
+
+    <TableRow android:gravity="left">
+
+        <TextView
+            android:id="@+id/labelAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available :"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        <TextView
+            android:id="@+id/textFieldAvailability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </TableRow>
+
+
+    <TableRow android:gravity="left">
+
+        <TextView
+            android:id="@+id/labelOrderTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order time :"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        <TextView
+            android:id="@+id/labelSetOrderTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </TableRow>
+
+    <TableRow android:gravity="left">
+
+        <TextView
+            android:id="@+id/labelOrderTimeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time to finish :"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        <TextView
+            android:id="@+id/labelSetCookTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px"
+            android:textColor="#0b0b0b"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:background="@drawable/txtview_bg">
+
+        <TextView
+            android:id="@+id/sdfsdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Status"
+            android:gravity="center"
+            android:textSize="50px"
+            android:textColor="#fcfbfb"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </TableRow>
+
+
+
+    <Button
+        android:id="@+id/btnStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:text="packaging"
+        android:background="@drawable/btnview_bg"
+        android:textColor="#fcfbfb"
+        android:textSize="50px"
+ />
+
+
+
+</TableLayout>
