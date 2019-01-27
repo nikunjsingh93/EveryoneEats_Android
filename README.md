@@ -1,4 +1,4 @@
-# EveryoneEats Android
+# EveryoneEats
 EveryoneEats is an Android Application which helps local food stall owner and its customers to speed up their processes. Created in Android Studio 3.
 
 # Screenshots:
